@@ -20,7 +20,7 @@ import {
   UsersIcon,
 } from "../../components/Icons";
 import { useAuth } from "../../hooks/useAuth";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logopagina.png";
 import "../../App.css";
 
 type AdminSection =
@@ -161,7 +161,7 @@ export const ManagerPanelPage = () => {
             <p>
               Plataforma operada por{" "}
               <strong>
-                Corporativo Construcción y Mantenimiento S.A. de C.V.
+                Grupo Creativo de Limpieza S.A. de C.V.
               </strong>{" "}
               Todos los derechos reservados.
             </p>

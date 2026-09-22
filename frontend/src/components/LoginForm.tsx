@@ -4,7 +4,7 @@ import { useAuth } from "../hooks/useAuth";
 import { Link } from "react-router-dom";
 import { LogInIcon, EyeIcon, EyeOffIcon } from "./Icons";
 import "../App.css";
-import logo from "../assets/logo.png";
+import logo from "../assets/logopagina.png";
 
 const REMEMBER_KEY = "remember_login";
 
@@ -172,7 +172,7 @@ export const LoginForm = () => {
         <div className="login-legal-footer">
           <p>
             Plataforma operada por{" "}
-            <strong>Corporativo Construcción y Mantenimiento S.A. de C.V.</strong>{" "}
+            <strong>Grupo Creativo de Limpieza S.A. de C.V.</strong>{" "}
             Todos los derechos reservados.
           </p>
           <div className="legal-links">
