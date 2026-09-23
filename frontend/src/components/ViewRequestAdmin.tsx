@@ -148,7 +148,7 @@ export const ViewRequestAdmin = () => {
   };
 
   return (
-    <div className="admin-placeholder">
+    <div className="admin-placeholder solicitudes-admin">
 
       {error && <p className="login-error">{error}</p>}
       {message && <p className="employee-success">{message}</p>}

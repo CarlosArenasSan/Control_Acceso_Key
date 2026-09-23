@@ -6,8 +6,8 @@
 :root {
   --primary: #06364e;
   --secondary: #1a6b85;
-  --accent: #cbe82a;
-  --accent-hover: #d8f23e;
+  --accent: #00a5ff;
+  --accent-hover: #0090e0;
   --text-light: #d7edf4;
   --text-muted: #a0c4d4;
   --shadow: 0 20px 40px rgba(6, 54, 78, 0.22);
@@ -411,12 +411,12 @@
   height: 48px;
   border: none;
   border-radius: 12px;
-  background-color: #cbe82a;
-  color: #06364e;
+  background-color: #00a5ff;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 800;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(203, 232, 42, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.15);
   transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
   margin-top: 6px;
   display: flex;
@@ -427,12 +427,12 @@
 
 .employee-form button[type="submit"]:hover:not(:disabled) {
   transform: translateY(-2px);
-  background-color: #d8f23e;
-  box-shadow: 0 6px 16px rgba(203, 232, 42, 0.3);
+  background-color: #0090e0;
+  box-shadow: 0 6px 16px rgba(0, 165, 255, 0.3);
 }
 
 .employee-form button[type="submit"]:disabled {
-  background-color: #536f1c;
+  background-color: #0077b6;
   color: rgba(255, 255, 255, 0.5);
   cursor: not-allowed;
   transform: none;
@@ -453,8 +453,8 @@
 
 .employee-success {
   margin: 0;
-  background-color: rgba(203, 232, 42, 0.15);
-  border-left: 4px solid #cbe82a;
+  background-color: rgba(0, 165, 255, 0.15);
+  border-left: 4px solid #00a5ff;
   color: #ffffff;
   padding: 12px;
   border-radius: 8px;
@@ -533,7 +533,7 @@
   height: 220px;
   object-fit: cover;
   border-radius: 10px;
-  border: 2px solid #cbe82a;
+  border: 2px solid #00a5ff;
 }
 
 .camera-box button[type="button"] {
@@ -745,8 +745,8 @@
   font-size: 28px;
   font-weight: 700;
   letter-spacing: -0.5px;
-  color: #cbe82a;
-  border-bottom: 2px solid rgba(203, 232, 42, 0.3);
+  color: #00a5ff;
+  border-bottom: 2px solid rgba(0, 165, 255, 0.3);
   padding-bottom: 12px;
   flex: 1;
   min-width: 200px;
@@ -754,9 +754,9 @@
 
 .legal-back-button {
   background: transparent;
-  border: 2px solid #cbe82a;
+  border: 2px solid #00a5ff;
   border-radius: 10px;
-  color: #cbe82a;
+  color: #00a5ff;
   padding: 8px 20px;
   font-size: 14px;
   font-weight: 700;
@@ -768,9 +768,9 @@
 }
 
 .legal-back-button:hover {
-  background-color: #cbe82a;
-  color: #06364e;
-  box-shadow: 0 4px 12px rgba(203, 232, 42, 0.2);
+  background-color: #00a5ff;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.2);
   transform: translateY(-1px);
 }
 
@@ -803,7 +803,7 @@
 }
 
 .legal-container a {
-  color: #cbe82a;
+  color: #00a5ff;
   text-decoration: none;
   font-weight: 500;
   transition: opacity 0.2s ease;
@@ -827,7 +827,7 @@
 
   .legal-container h1 {
     font-size: 24px;
-    border-bottom: 2px solid rgba(203, 232, 42, 0.3);
+    border-bottom: 2px solid rgba(0, 165, 255, 0.3);
     padding-bottom: 8px;
     flex: none;
     min-width: auto;
@@ -1037,9 +1037,9 @@
   height: 34px;
   padding: 0;
   background-color: transparent;
-  border: 2px solid #cbe82a;
+  border: 2px solid #00a5ff;
   border-radius: 8px;
-  color: #cbe82a;
+  color: #00a5ff;
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
@@ -1050,9 +1050,9 @@
 }
 
 .admin-header button:hover {
-  background-color: #cbe82a;
-  color: #06364e;
-  box-shadow: 0 4px 12px rgba(203, 232, 42, 0.2);
+  background-color: #00a5ff;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.2);
 }
 
 .admin-header-logo {
@@ -1093,8 +1093,8 @@
 }
 
 .admin-placeholder button {
-  background-color: #cbe82a;
-  color: #06364e;
+  background-color: #00a5ff;
+  color: #ffffff;
   border: none;
   padding: 10px 20px;
   border-radius: 10px;
@@ -1104,9 +1104,9 @@
 }
 
 .admin-placeholder button:hover {
-  background-color: #d8f23e;
+  background-color: #0090e0;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(203, 232, 42, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.3);
 }
 
 /* ===== BOTONES SOLO ICONO (admin) ===== */
@@ -1120,8 +1120,8 @@
   padding: 0 12px;
   border: none;
   border-radius: 8px;
-  background-color: #cbe82a;
-  color: #06364e;
+  background-color: #00a5ff;
+  color: #ffffff;
   font-size: 13.5px;
   font-weight: 700;
   font-family: inherit;
@@ -1133,9 +1133,9 @@
 }
 
 .icon-button:hover:not(:disabled) {
-  background-color: #d8f23e;
+  background-color: #0090e0;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(203, 232, 42, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.3);
 }
 
 .icon-button:disabled {
@@ -1300,7 +1300,7 @@
   font-weight: 700;
   color: #06364e;
   letter-spacing: -0.3px;
-  border-left: 4px solid #cbe82a;
+  border-left: 4px solid #00a5ff;
   padding-left: 14px;
   text-align: left;
 }
@@ -1362,7 +1362,7 @@
   border-radius: 12px;
   padding: 14px 16px;
   box-shadow: 0 12px 28px rgba(6, 54, 78, 0.08);
-  border: 1px solid #eef2f5;
+  border: 1px solid #d8dee3;
   transition: box-shadow 0.2s ease;
   text-align: left;
 }
@@ -1376,7 +1376,7 @@
   font-size: 15.5px;
   font-weight: 700;
   color: #06364e;
-  border-left: 3px solid #cbe82a;
+  border-left: 3px solid #00a5ff;
   padding-left: 8px;
   text-align: left;
 }
@@ -1426,8 +1426,8 @@
   width: 100%;
   border: none;
   border-radius: 8px;
-  background-color: #cbe82a;
-  color: #06364e;
+  background-color: #00a5ff;
+  color: #ffffff;
   font-size: 13px;
   font-weight: 800;
   cursor: pointer;
@@ -1441,8 +1441,8 @@
 
 .admin-point-card button:hover {
   transform: translateY(-2px);
-  background-color: #d8f23e;
-  box-shadow: 0 4px 12px rgba(203, 232, 42, 0.3);
+  background-color: #0090e0;
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.3);
 }
 
 .admin-point-card button:active {
@@ -1488,12 +1488,12 @@
 }
 
 .registered-points-list::-webkit-scrollbar-thumb {
-  background: #cbe82a;
+  background: #00a5ff;
   border-radius: 10px;
 }
 
 .registered-points-list::-webkit-scrollbar-thumb:hover {
-  background: #d8f23e;
+  background: #0090e0;
 }
 
 .registered-point-item {
@@ -1511,8 +1511,8 @@
 
 .registered-point-item:hover {
   background-color: #ffffff;
-  border-color: #cbe82a;
-  box-shadow: 0 2px 8px rgba(203, 232, 42, 0.2);
+  border-color: #00a5ff;
+  box-shadow: 0 2px 8px rgba(0, 165, 255, 0.2);
 }
 
 .registered-point-item h4 {
@@ -1572,12 +1572,12 @@
 }
 
 .point-active-button {
-  border-color: #2e7d32;
-  color: #2e7d32;
+  border-color: #00a5ff;
+  color: #00a5ff;
 }
 
 .point-active-button:hover:not(:disabled) {
-  background-color: #2e7d32;
+  background-color: #00a5ff;
   color: #ffffff;
   box-shadow: none;
 }
@@ -1677,11 +1677,11 @@
   left: 0;
   right: 0;
   height: 3px;
-  background-color: #cbe82a;
+  background-color: #00a5ff;
 }
 
 .start-kpi-card:nth-child(1)::before {
-  background-color: #2e7d32;
+  background-color: #00a5ff;
 }
 .start-kpi-card:nth-child(2)::before {
   background-color: #f57c00;
@@ -1838,11 +1838,11 @@
   border-radius: 10px;
 }
 .incident-list::-webkit-scrollbar-thumb {
-  background: #cbe82a;
+  background: #00a5ff;
   border-radius: 10px;
 }
 .incident-list::-webkit-scrollbar-thumb:hover {
-  background: #d8f23e;
+  background: #0090e0;
 }
 
 .incident-item {
@@ -1860,8 +1860,8 @@
 
 .incident-item:hover {
   background-color: #ffffff;
-  border-color: #cbe82a;
-  box-shadow: 0 2px 8px rgba(203, 232, 42, 0.15);
+  border-color: #00a5ff;
+  box-shadow: 0 2px 8px rgba(0, 165, 255, 0.15);
 }
 
 .incident-item h4 {
@@ -2052,7 +2052,7 @@
   font-size: 15px;
   font-weight: 700;
   color: #06364e;
-  border-left: 3px solid #cbe82a;
+  border-left: 3px solid #00a5ff;
   padding-left: 8px;
   flex-shrink: 0;
 }
@@ -2131,7 +2131,7 @@
   font-size: 15.5px;
   font-weight: 700;
   color: #06364e;
-  border-left: 3px solid #cbe82a;
+  border-left: 3px solid #00a5ff;
   padding-left: 8px;
 }
 
@@ -2187,7 +2187,7 @@
 .employee-active-row input {
   width: 16px;
   height: 16px;
-  accent-color: #cbe82a;
+  accent-color: #00a5ff;
   cursor: pointer;
 }
 
@@ -2202,8 +2202,8 @@
   height: 38px;
   border: none;
   border-radius: 8px;
-  background-color: #cbe82a;
-  color: #06364e;
+  background-color: #00a5ff;
+  color: #ffffff;
   font-size: 13px;
   font-weight: 800;
   cursor: pointer;
@@ -2212,8 +2212,8 @@
 
 .employee-form-actions button[type="submit"]:hover:not(:disabled) {
   transform: translateY(-2px);
-  background-color: #d8f23e;
-  box-shadow: 0 4px 12px rgba(203, 232, 42, 0.3);
+  background-color: #0090e0;
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.3);
 }
 
 .employee-form-actions button[type="submit"]:disabled {
@@ -2262,7 +2262,7 @@
   font-size: 15.5px;
   font-weight: 700;
   color: #06364e;
-  border-left: 3px solid #cbe82a;
+  border-left: 3px solid #00a5ff;
   padding-left: 8px;
 }
 
@@ -2314,7 +2314,7 @@
 }
 
 .employee-status.active {
-  background-color: rgba(203, 232, 42, 0.2);
+  background-color: rgba(0, 165, 255, 0.2);
   color: #06364e;
 }
 
@@ -2378,13 +2378,13 @@
 }
 
 .employee-table-actions .employee-toggle-button:not(.active) {
-  border-color: #2e9e44;
-  color: #2e9e44;
+  border-color: #0077b6;
+  color: #0077b6;
 }
 
 .employee-table-actions
   .employee-toggle-button:not(.active):hover:not(:disabled) {
-  background-color: #2e9e44;
+  background-color: #0077b6;
   color: #ffffff;
 }
 
@@ -2693,8 +2693,8 @@
 }
 
 .history-badge.success {
-  background-color: rgba(46, 125, 50, 0.12);
-  color: #2e7d32;
+  background-color: rgba(0, 165, 255, 0.12);
+  color: #00a5ff;
 }
 .history-badge.danger {
   background-color: rgba(198, 40, 40, 0.12);
@@ -2797,7 +2797,7 @@
   font-size: 22px;
   font-weight: 700;
   color: #06364e;
-  border-left: 4px solid #cbe82a;
+  border-left: 4px solid #00a5ff;
   padding-left: 14px;
 }
 
@@ -3021,14 +3021,14 @@
   height: 38px;
   border: none;
   border-radius: 8px;
-  background-color: #cbe82a;
-  color: #06364e;
+  background-color: #00a5ff;
+  color: #ffffff;
   font-size: 13px;
   font-weight: 800;
   cursor: pointer;
   transition: all 0.2s ease;
   margin-top: 6px;
-  box-shadow: 0 4px 12px rgba(203, 232, 42, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3036,8 +3036,8 @@
 
 .employee-admin-form > button[type="submit"]:hover:not(:disabled) {
   transform: translateY(-2px);
-  background-color: #d8f23e;
-  box-shadow: 0 6px 16px rgba(203, 232, 42, 0.3);
+  background-color: #0090e0;
+  box-shadow: 0 6px 16px rgba(0, 165, 255, 0.3);
 }
 
 .employee-admin-form > button[type="submit"]:disabled {
@@ -3101,7 +3101,7 @@
   font-weight: 700;
   color: #06364e;
   letter-spacing: -0.3px;
-  border-left: 4px solid #cbe82a;
+  border-left: 4px solid #00a5ff;
   padding-left: 14px;
   text-align: left;
 }
@@ -3116,7 +3116,7 @@
 
 .construction-badge {
   display: inline-block;
-  background-color: rgba(203, 232, 42, 0.2);
+  background-color: rgba(0, 165, 255, 0.2);
   color: #06364e;
   font-size: 11px;
   font-weight: 700;
@@ -3181,7 +3181,7 @@
 }
 
 .legend-dia-completo {
-  background-color: #1f9d55;
+  background-color: #00a5ff;
 }
 
 .legend-medio-dia {
@@ -3222,7 +3222,7 @@
   font-size: 12.5px;
   font-weight: 700;
   color: #06364e;
-  border-left: 3px solid #cbe82a;
+  border-left: 3px solid #00a5ff;
   padding-left: 6px;
 }
 
@@ -3282,8 +3282,8 @@
 
 .calendario-dia:hover {
   transform: translateY(-2px);
-  border-color: #cbe82a;
-  box-shadow: 0 4px 10px rgba(203, 232, 42, 0.35);
+  border-color: #00a5ff;
+  box-shadow: 0 4px 10px rgba(0, 165, 255, 0.35);
 }
 
 .calendario-dia small {
@@ -3298,13 +3298,13 @@
 }
 
 .calendario-dia-jornada_completa {
-  background-color: #e6f7ee;
-  border-color: #1f9d55;
-  color: #14532d;
+  background-color: #e6f5ff;
+  border-color: #00a5ff;
+  color: #06364e;
 }
 
 .calendario-dia-jornada_completa small {
-  color: #1f9d55;
+  color: #0077b6;
 }
 
 .calendario-dia-media_jornada {
@@ -3349,8 +3349,8 @@
 }
 
 .fechas-estado-activa {
-  background-color: rgba(31, 157, 85, 0.12);
-  color: #1f9d55;
+  background-color: rgba(0, 165, 255, 0.12);
+  color: #0077b6;
   font-size: 11px;
   font-weight: 800;
   text-transform: uppercase;
@@ -3394,13 +3394,13 @@
 }
 
 .fechas-tipo-opcion.fechas-tipo-seleccionada {
-  border-color: #cbe82a;
-  background-color: rgba(203, 232, 42, 0.12);
+  border-color: #00a5ff;
+  background-color: rgba(0, 165, 255, 0.12);
 }
 
 .fechas-tipo-opcion input[type="radio"] {
   margin-top: 3px;
-  accent-color: #1a6b85;
+  accent-color: #00a5ff;
 }
 
 .fechas-tipo-opcion strong {
@@ -3458,8 +3458,8 @@
   height: 40px;
   border: none;
   border-radius: 8px;
-  background-color: #cbe82a;
-  color: #06364e;
+  background-color: #00a5ff;
+  color: #ffffff;
   font-size: 13.5px;
   font-weight: 800;
   cursor: pointer;
@@ -3470,8 +3470,8 @@
 
 .fechas-boton-principal:hover:not(:disabled) {
   transform: translateY(-2px);
-  background-color: #d8f23e;
-  box-shadow: 0 4px 12px rgba(203, 232, 42, 0.3);
+  background-color: #0090e0;
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.3);
 }
 
 .fechas-boton-principal:disabled {
@@ -3517,10 +3517,10 @@
   width: 100%;
   height: 46px;
   margin-top: 14px;
-  border: 2px solid rgba(203, 232, 42, 0.6);
+  border: 2px solid rgba(0, 165, 255, 0.6);
   border-radius: 12px;
   background-color: transparent;
-  color: #cbe82a;
+  color: #00a5ff;
   font-size: 14px;
   font-weight: 700;
   font-family: inherit;
@@ -3534,9 +3534,9 @@
 }
 
 .hora-extra-open-button:hover {
-  background-color: #cbe82a;
-  color: #06364e;
-  border-color: #cbe82a;
+  background-color: #00a5ff;
+  color: #ffffff;
+  border-color: #00a5ff;
   transform: translateY(-2px);
 }
 
@@ -3609,8 +3609,8 @@
 }
 
 .hora-extra-calendario-nav button:hover:not(:disabled) {
-  border-color: #cbe82a;
-  background-color: rgba(203, 232, 42, 0.15);
+  border-color: #00a5ff;
+  background-color: rgba(0, 165, 255, 0.15);
   transform: translateY(-1px);
 }
 
@@ -3620,9 +3620,9 @@
 }
 
 .hora-extra-dia-seleccionado {
-  background-color: #cbe82a !important;
+  background-color: #00a5ff !important;
   border-color: #06364e !important;
-  color: #06364e !important;
+  color: #ffffff !important;
 }
 
 .hora-extra-dia-seleccionado:hover {
@@ -3740,9 +3740,9 @@
 
 .hora-extra-success {
   margin: 0;
-  background-color: rgba(31, 157, 85, 0.1);
-  border-left: 4px solid #1f9d55;
-  color: #1f9d55;
+  background-color: rgba(0, 165, 255, 0.1);
+  border-left: 4px solid #00a5ff;
+  color: #00a5ff;
   padding: 10px 14px;
   border-radius: 8px;
   font-size: 13px;
@@ -3760,8 +3760,8 @@
   height: 40px;
   border: none;
   border-radius: 8px;
-  background-color: #cbe82a;
-  color: #06364e;
+  background-color: #00a5ff;
+  color: #ffffff;
   font-size: 13.5px;
   font-weight: 800;
   font-family: inherit;
@@ -3773,8 +3773,8 @@
 
 .hora-extra-boton-principal:hover:not(:disabled) {
   transform: translateY(-2px);
-  background-color: #d8f23e;
-  box-shadow: 0 4px 12px rgba(203, 232, 42, 0.3);
+  background-color: #0090e0;
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.3);
 }
 
 .hora-extra-boton-principal:disabled {
@@ -3832,8 +3832,8 @@
 }
 
 .solicitud-estado-aprobada {
-  background-color: rgba(46, 158, 68, 0.15);
-  color: #2e9e44;
+  background-color: rgba(0, 165, 255, 0.15);
+  color: #0077b6;
 }
 
 .solicitud-estado-rechazada {
@@ -3885,8 +3885,8 @@
 }
 
 .solicitudes-tipo-opcion.solicitudes-tipo-aprobada {
-  border-color: #2e9e44;
-  background-color: rgba(46, 158, 68, 0.1);
+  border-color: #0077b6;
+  background-color: rgba(0, 165, 255, 0.1);
 }
 
 .solicitudes-tipo-opcion.solicitudes-tipo-rechazada {
@@ -3999,3 +3999,295 @@
 }
 
 
+
+/* --- Tema azul (solo ViewRequestAdmin) --- */
+.solicitudes-admin .employee-table-card {
+  border-color: #d8dee3;
+}
+
+.solicitudes-admin .employee-table-card h3,
+.solicitudes-modal h3 {
+  border-left-color: #00a5ff;
+}
+
+.solicitudes-admin .employee-table-actions button {
+  background-color: #00a5ff;
+  border-color: #00a5ff;
+  color: #ffffff;
+}
+
+.solicitudes-admin .employee-table-actions button:hover:not(:disabled) {
+  background-color: #0090e0;
+  border-color: #0090e0;
+  color: #ffffff;
+}
+
+.solicitudes-modal {
+  border-color: #d8dee3;
+}
+
+.solicitudes-modal .access-modal-close {
+  background-color: #00a5ff;
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solicitudes-modal .access-modal-close:hover {
+  background-color: #0090e0;
+  color: #ffffff;
+}
+
+.solicitudes-modal .fechas-boton-principal {
+  background-color: #00a5ff;
+  color: #ffffff;
+}
+
+.solicitudes-modal .fechas-boton-principal:hover:not(:disabled) {
+  background-color: #0090e0;
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.3);
+}
+
+.solicitudes-modal .solicitudes-tipo-opcion:hover {
+  border-color: #00a5ff;
+}
+
+.solicitudes-modal .solicitudes-tipo-opcion.solicitudes-tipo-aprobada {
+  border-color: #00a5ff;
+  background-color: rgba(0, 165, 255, 0.1);
+}
+
+.solicitudes-modal .solicitudes-tipo-opcion input[type="radio"] {
+  accent-color: #00a5ff;
+}
+
+.solicitudes-modal .solicitudes-campo select:focus,
+.solicitudes-modal .solicitudes-campo textarea:focus {
+  border-color: #00a5ff;
+  box-shadow: 0 0 0 4px rgba(0, 165, 255, 0.2);
+}
+
+.solicitudes-admin .solicitud-estado-aprobada {
+  background-color: rgba(0, 165, 255, 0.15);
+  color: #0077b6;
+}
+
+/* --- Tema azul (modal de FechasEspecialesPanel) --- */
+.fechas-especiales-modal {
+  border-color: #d8dee3;
+}
+
+.fechas-especiales-modal h3 {
+  border-left-color: #00a5ff;
+}
+
+.fechas-especiales-modal .access-modal-close {
+  background-color: #00a5ff;
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fechas-especiales-modal .access-modal-close:hover {
+  background-color: #0090e0;
+  color: #ffffff;
+}
+
+.fechas-observaciones textarea:focus {
+  border-color: #00a5ff;
+  box-shadow: 0 0 0 4px rgba(0, 165, 255, 0.2);
+}
+
+/* --- Días del calendario: evitar el fondo global de .admin-placeholder button --- */
+.admin-placeholder .calendario-dia {
+  background-color: #f9fbfc;
+  color: #06364e;
+  border: 1px solid #eef2f5;
+  border-radius: 5px;
+  padding: 1px;
+  font-weight: 700;
+}
+
+.admin-placeholder .calendario-dia:hover {
+  background-color: #f9fbfc;
+  border-color: #00a5ff;
+  box-shadow: 0 4px 10px rgba(0, 165, 255, 0.35);
+  transform: translateY(-2px);
+}
+
+.admin-placeholder .calendario-dia-jornada_completa,
+.admin-placeholder .calendario-dia-jornada_completa:hover {
+  background-color: #e6f5ff;
+  border-color: #00a5ff;
+  color: #06364e;
+}
+
+.admin-placeholder .calendario-dia-media_jornada,
+.admin-placeholder .calendario-dia-media_jornada:hover {
+  background-color: #fff7e0;
+  border-color: #d97706;
+  color: #78350f;
+}
+
+.admin-placeholder .calendario-dia-no_laborable,
+.admin-placeholder .calendario-dia-no_laborable:hover {
+  background-color: #fdecec;
+  border-color: #dc2626;
+  color: #7f1d1d;
+}
+
+.admin-placeholder .calendario-dia-domingo {
+  border-color: #d6dde2;
+  color: #9fb0b9;
+}
+
+/* --- Botón × de modales: evitar el padding global de .admin-placeholder button --- */
+.admin-placeholder .access-modal-close {
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+  transform: none;
+}
+
+/* --- Botón × de modales: blanco con contorno gris --- */
+.admin-placeholder .access-modal-close,
+.admin-placeholder .access-modal.history-modal .access-modal-close,
+.admin-placeholder .solicitudes-modal .access-modal-close,
+.admin-placeholder .fechas-especiales-modal .access-modal-close {
+  background-color: #ffffff;
+  border: 1px solid #d8dee3;
+  color: #5f7f8c;
+}
+
+.admin-placeholder .access-modal-close:hover,
+.admin-placeholder .access-modal.history-modal .access-modal-close:hover,
+.admin-placeholder .solicitudes-modal .access-modal-close:hover,
+.admin-placeholder .fechas-especiales-modal .access-modal-close:hover {
+  background-color: #ffffff;
+  border-color: #b6c2c9;
+  color: #06364e;
+}
+
+/* --- Encabezado de EmployeeCheckForm: blanco con contorno gris --- */
+.employee-layout .employee-header {
+  background-color: #ffffff;
+  color: #06364e;
+  border-bottom: 1px solid #d8dee3;
+  box-shadow: none;
+}
+
+.employee-layout .employee-header p {
+  color: #5f7f8c;
+}
+
+.employee-layout .employee-header p strong {
+  color: #06364e;
+}
+
+.employee-layout .employee-header button[type="button"] {
+  background-color: #ffffff;
+  border: 1px solid #d8dee3;
+  color: #06364e;
+}
+
+.employee-layout .employee-header button[type="button"]:hover {
+  background-color: #f9fbfc;
+  border-color: #b6c2c9;
+  box-shadow: none;
+}
+
+/* --- Tarjeta de registro (EmployeeCheckForm): blanco con contorno gris --- */
+.employee-layout .employee-card {
+  background-color: #ffffff;
+  color: #06364e;
+  border: 1px solid #d8dee3;
+  box-shadow: 0 8px 24px rgba(6, 54, 78, 0.06);
+}
+
+.employee-layout .employee-card h1,
+.employee-layout .employee-form label,
+.employee-layout .camera-title {
+  color: #06364e;
+}
+
+.employee-layout .employee-form select {
+  background-color: #f9fbfc;
+  border: 1px solid #d8dee3;
+}
+
+.employee-layout .employee-form select:focus {
+  border-color: #00a5ff;
+  box-shadow: 0 0 0 4px rgba(0, 165, 255, 0.2);
+}
+
+.employee-layout .camera-box {
+  background-color: #f9fbfc;
+  border: 1px dashed #b6c2c9;
+}
+
+.employee-layout .camera-box button[type="button"] {
+  border: 1px solid #d8dee3;
+  background-color: #ffffff;
+  color: #06364e;
+}
+
+.employee-layout .camera-box button[type="button"]:hover {
+  background-color: #ffffff;
+  border-color: #00a5ff;
+  color: #00a5ff;
+  box-shadow: none;
+}
+
+.employee-layout .employee-info {
+  background-color: rgba(0, 165, 255, 0.06);
+  border-left-color: #00a5ff;
+  color: #2c4b5c;
+}
+
+.employee-layout .employee-success {
+  color: #06364e;
+}
+
+.employee-layout .employee-form .login-error,
+.employee-layout .login-error {
+  background-color: rgba(198, 40, 40, 0.08);
+  border-left-color: #c62828;
+  color: #c62828;
+}
+
+.employee-layout .employee-address {
+  background-color: #f9fbfc;
+  border-left-color: #00a5ff;
+  color: #2c4b5c;
+}
+
+.employee-layout .employee-address strong {
+  color: #06364e;
+}
+
+/* --- Cerrar sesión: rojo al pasar el mouse --- */
+.employee-layout .employee-header button[type="button"]:hover {
+  background-color: #c62828;
+  border-color: #c62828;
+  color: #ffffff;
+}
+
+/* --- Contorno más visible de la tarjeta de registro --- */
+.employee-layout .employee-card {
+  border: 2px solid #b6c2c9;
+  box-shadow: 0 10px 28px rgba(6, 54, 78, 0.12);
+}
+
+/* --- Contorno más visible del encabezado --- */
+.employee-layout .employee-header {
+  border-bottom: 2px solid #b6c2c9;
+  box-shadow: 0 4px 12px rgba(6, 54, 78, 0.08);
+}
