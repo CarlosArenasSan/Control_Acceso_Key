@@ -235,7 +235,7 @@ export class RegistroHistorialService {
       for (const dia of dias) {
         const fechaKey = this.formatLocalDateKey(dia);
 
-        if (fechaKey <= fechaAltaEmpleado) {
+        if (fechaKey < fechaAltaEmpleado) {
           continue;
         }
 
@@ -244,6 +244,7 @@ export class RegistroHistorialService {
 
         if (registrosDia.length === 0) {
           if (
+            fechaKey === fechaAltaEmpleado ||
             !empleado.activo ||
             !this.esDiaLaborable(dia, fechaEspecialPorDia)
           ) {

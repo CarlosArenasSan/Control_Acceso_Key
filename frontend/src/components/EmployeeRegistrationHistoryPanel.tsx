@@ -608,7 +608,7 @@ export const EmployeeRegistrationHistoryPanel = () => {
 
       {selectedRow && (
         <div className="access-modal-overlay">
-          <div className="access-modal">
+          <div className="access-modal history-modal">
             <button
               type="button"
               className="access-modal-close"

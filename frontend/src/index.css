@@ -1729,7 +1729,7 @@
   border-radius: 12px;
   padding: 14px 16px;
   box-shadow: 0 12px 28px rgba(6, 54, 78, 0.08);
-  border: 1px solid #eef2f5;
+  border: 1px solid #d8dee3;
   transition: box-shadow 0.2s ease;
   display: flex;
   flex-direction: column;
@@ -1746,7 +1746,7 @@
   font-size: 15px;
   font-weight: 700;
   color: #06364e;
-  border-left: 3px solid #cbe82a;
+  border-left: 3px solid #00a5ff;
   padding-left: 8px;
   flex-shrink: 0;
 }
@@ -1790,11 +1790,11 @@
 .weekly-bar {
   width: 60%;
   max-width: 36px;
-  background: linear-gradient(180deg, #cbe82a 0%, #8aa820 100%);
+  background: linear-gradient(180deg, #00a5ff 0%, #0077b6 100%);
   border-radius: 6px 6px 0 0;
   transition: height 0.5s cubic-bezier(0.22, 1, 0.36, 1);
   min-height: 4px;
-  box-shadow: 0 -2px 8px rgba(203, 232, 42, 0.2);
+  box-shadow: 0 -2px 8px rgba(0, 165, 255, 0.2);
 }
 
 .weekly-chart-item span {
@@ -1924,6 +1924,29 @@
   box-shadow: 0 2px 8px rgba(198, 40, 40, 0.3);
 }
 
+/* --- Incidencias (solo dentro de la tarjeta del inicio) --- */
+.start-alert-card .incident-list::-webkit-scrollbar-thumb {
+  background: #00a5ff;
+}
+
+.start-alert-card .incident-list::-webkit-scrollbar-thumb:hover {
+  background: #0090e0;
+}
+
+.start-alert-card .incident-item {
+  border-color: #d8dee3;
+}
+
+.start-alert-card .incident-item:hover {
+  border-color: #00a5ff;
+  box-shadow: 0 2px 8px rgba(0, 165, 255, 0.15);
+}
+
+.start-alert-card .incident-tag {
+  background-color: rgba(0, 165, 255, 0.12);
+  color: #0077b6;
+}
+
 /* --- Responsive StartPanel --- */
 @media (max-width: 1024px) {
   .start-panel-grid {
@@ -2040,6 +2063,61 @@
   color: #5f7f8c;
   text-align: center;
   padding: 28px 0;
+}
+
+/* --- Tema azul (solo ManualAccessRegisterPanel) --- */
+.incidencias-layout .employee-admin-form,
+.incidencias-layout .incidencias-hoy-card {
+  border-color: #d8dee3;
+}
+
+.incidencias-layout .employee-admin-form h3,
+.incidencias-layout .incidencias-hoy-card h3 {
+  border-left-color: #00a5ff;
+}
+
+.incidencias-layout .employee-admin-form input:focus,
+.incidencias-layout .employee-admin-form select:focus,
+.incidencias-layout .employee-admin-form textarea:focus {
+  border-color: #00a5ff;
+  box-shadow: 0 0 0 4px rgba(0, 165, 255, 0.25);
+}
+
+.incidencias-layout .icon-button,
+.incidencias-layout .employee-admin-form > button[type="submit"] {
+  background-color: #00a5ff;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.25);
+}
+
+.incidencias-layout .icon-button:hover:not(:disabled),
+.incidencias-layout
+  .employee-admin-form
+  > button[type="submit"]:hover:not(:disabled) {
+  background-color: #0090e0;
+  box-shadow: 0 6px 16px rgba(0, 165, 255, 0.35);
+}
+
+.incidencias-layout .incident-list::-webkit-scrollbar-thumb {
+  background: #00a5ff;
+}
+
+.incidencias-layout .incident-list::-webkit-scrollbar-thumb:hover {
+  background: #0090e0;
+}
+
+.incidencias-layout .incident-item {
+  border-color: #d8dee3;
+}
+
+.incidencias-layout .incident-item:hover {
+  border-color: #00a5ff;
+  box-shadow: 0 2px 8px rgba(0, 165, 255, 0.15);
+}
+
+.incidencias-layout .incident-tag {
+  background-color: rgba(0, 165, 255, 0.12);
+  color: #0077b6;
 }
 
 @media (max-width: 1000px) {
@@ -2316,6 +2394,71 @@
   padding: 20px;
 }
 
+/* --- Tema azul (solo EmployeeManagementPanel) --- */
+.employee-management-grid .employee-admin-form,
+.employee-management-grid .employee-table-card {
+  border-color: #d8dee3;
+}
+
+.employee-management-grid .employee-admin-form h3,
+.employee-management-grid .employee-table-card h3 {
+  border-left-color: #00a5ff;
+}
+
+.employee-management-grid .employee-admin-form input:focus,
+.employee-management-grid .employee-admin-form select:focus,
+.employee-management-grid .employee-admin-form textarea:focus {
+  border-color: #00a5ff;
+  box-shadow: 0 0 0 4px rgba(0, 165, 255, 0.25);
+}
+
+.employee-management-grid .employee-active-row input {
+  accent-color: #00a5ff;
+}
+
+.employee-management-grid .employee-form-actions button[type="submit"] {
+  background-color: #00a5ff;
+  color: #ffffff;
+}
+
+.employee-management-grid
+  .employee-form-actions
+  button[type="submit"]:hover:not(:disabled) {
+  background-color: #0090e0;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.35);
+}
+
+.employee-management-grid .employee-form-actions button[type="button"] {
+  border-color: #00a5ff;
+  color: #00a5ff;
+}
+
+.employee-management-grid .employee-form-actions button[type="button"]:hover {
+  background-color: #00a5ff;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 165, 255, 0.3);
+}
+
+.employee-management-grid .employee-status.active {
+  background-color: rgba(0, 165, 255, 0.15);
+  color: #0077b6;
+}
+
+.employee-management-grid
+  .employee-table-actions
+  button:not(.employee-delete-button):not(.employee-toggle-button) {
+  border-color: #00a5ff;
+  color: #00a5ff;
+}
+
+.employee-management-grid
+  .employee-table-actions
+  button:not(.employee-delete-button):not(.employee-toggle-button):hover:not(:disabled) {
+  background-color: #00a5ff;
+  color: #ffffff;
+}
+
 @media (max-width: 1024px) {
   .employee-management-grid {
     grid-template-columns: 1fr;
@@ -2368,7 +2511,7 @@
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(6, 54, 78, 0.06);
-  border: 1px solid #eef2f5;
+  border: 1px solid #d8dee3;
   text-align: left;
 }
 
@@ -2400,8 +2543,8 @@
 
 .history-filters input:focus,
 .history-filters select:focus {
-  border-color: #1a6b85;
-  box-shadow: 0 0 0 4px rgba(26, 107, 133, 0.15);
+  border-color: #00a5ff;
+  box-shadow: 0 0 0 4px rgba(0, 165, 255, 0.25);
   background-color: #ffffff;
 }
 
@@ -2411,8 +2554,8 @@
   padding: 0;
   border: none;
   border-radius: 8px;
-  background-color: #cbe82a;
-  color: #06364e;
+  background-color: #00a5ff;
+  color: #ffffff;
   font-size: 13px;
   font-weight: 700;
   cursor: pointer;
@@ -2424,9 +2567,9 @@
 }
 
 .history-filters button:hover:not(:disabled) {
-  background-color: #d8f23e;
+  background-color: #0090e0;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(203, 232, 42, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.35);
 }
 
 .history-filters button:disabled {
@@ -2437,14 +2580,14 @@
 
 .history-filters button:last-of-type {
   background-color: transparent;
-  border: 2px solid #1a6b85;
-  color: #1a6b85;
+  border: 2px solid #00a5ff;
+  color: #00a5ff;
 }
 
 .history-filters button:last-of-type:hover {
-  background-color: #1a6b85;
+  background-color: #00a5ff;
   color: #ffffff;
-  box-shadow: 0 2px 8px rgba(26, 107, 133, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 165, 255, 0.3);
 }
 
 /* --- Tabla con scroll vertical y cabecera fija --- */
@@ -2454,7 +2597,7 @@
   max-height: 520px;
   margin-top: 16px;
   border-radius: 16px;
-  border: 1px solid #eef2f5;
+  border: 1px solid #d8dee3;
   background-color: #ffffff;
 }
 
@@ -2588,6 +2731,19 @@
   transform: scale(1.15);
 }
 
+.history-table .history-eye-button.icon-button {
+  background-color: #00a5ff;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.history-table .history-eye-button.icon-button:hover:not(:disabled) {
+  background-color: #0090e0;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 165, 255, 0.3);
+  transform: scale(1.08);
+}
+
 /* --- Modal --- */
 .access-modal-overlay {
   position: fixed;
@@ -2645,6 +2801,37 @@
   padding-left: 14px;
 }
 
+.access-modal.history-modal {
+  border-color: #d8dee3;
+}
+
+.access-modal.history-modal h3 {
+  border-left-color: #00a5ff;
+}
+
+.access-modal.history-modal .access-modal-close {
+  background-color: #00a5ff;
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.access-modal.history-modal .access-modal-close:hover {
+  background-color: #0090e0;
+  color: #ffffff;
+}
+
+.access-modal.history-modal > .employee-info {
+  color: #5f7f8c;
+  background-color: rgba(0, 165, 255, 0.06);
+  border-left-color: #00a5ff;
+}
+
 .access-modal p {
   margin: 10px 0;
   font-size: 14px;
@@ -2672,7 +2859,7 @@
 }
 
 .access-detail-card:hover {
-  border-color: #cbe82a;
+  border-color: #00a5ff;
 }
 
 .access-detail-card h4 {
@@ -2711,8 +2898,8 @@
   margin-top: 12px;
   font-size: 12px;
   color: #5f7f8c;
-  background-color: rgba(26, 107, 133, 0.05);
-  border-left: 3px solid #1a6b85;
+  background-color: rgba(0, 165, 255, 0.06);
+  border-left: 3px solid #00a5ff;
   padding: 8px 12px;
   border-radius: 6px;
   width: 100%;

@@ -109,12 +109,13 @@ let RegistroHistorialService = class RegistroHistorialService {
             const fechaAltaEmpleado = this.formatLocalDateKey(empleado.created_at);
             for (const dia of dias) {
                 const fechaKey = this.formatLocalDateKey(dia);
-                if (fechaKey <= fechaAltaEmpleado) {
+                if (fechaKey < fechaAltaEmpleado) {
                     continue;
                 }
                 const registrosDia = registrosPorDia.get(`${empleado.id_empleado}|${fechaKey}`) ?? [];
                 if (registrosDia.length === 0) {
-                    if (!empleado.activo ||
+                    if (fechaKey === fechaAltaEmpleado ||
+                        !empleado.activo ||
                         !this.esDiaLaborable(dia, fechaEspecialPorDia)) {
                         continue;
                     }
